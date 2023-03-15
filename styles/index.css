@@ -1,0 +1,98 @@
+html {
+    background-image: url(../resources/full-img.jpg);
+    background-attachment: fixed;
+}
+
+body {
+    margin: auto;
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    box-sizing: border-box;
+}
+
+/* Титульное изображение */
+
+.title-img {
+    position: relative;
+    margin: auto;
+    padding-top: 36px;
+    width: 1400px;
+    height: 765px;
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 100%),
+        url(../resources/title-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+}
+
+.nav-section {
+    margin: 0 124px 0 123px;
+    width: 1153px;
+    height: 55px;
+}
+
+.logo {
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 5px;
+    width: 170px;
+    height: 39px;
+    background: #000000;
+    border-radius: 100px;
+}
+
+.logo-text {
+    line-height: 43px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.11em;
+    color: #1BFF07;
+    text-transform: uppercase;
+}
+
+.nav {
+    float: right;
+    vertical-align: top;
+}
+
+.nav-link {
+    margin-left: 50px;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: #1BFF07;
+}
+
+.nav-link:first-child {
+    margin-left: 0;
+}
+
+.title-text {
+    position: absolute;
+    left: 125px;
+    top: 334px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.title-img h1 {
+    position: absolute;
+    left: 119px;
+    top: 466px;
+    width: 919px;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
