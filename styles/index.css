@@ -1,6 +1,7 @@
 html {
     background-image: url(../resources/full-img.jpg);
     background-attachment: fixed;
+    background-size: contain;
 }
 
 body {
@@ -101,7 +102,6 @@ body {
 /* Секция портфолио */
 
 .portfolio {
-    /* width: 1150px; */
     width: 1400px;
     margin: 0 auto;
     padding-top: 150px;
@@ -168,6 +168,7 @@ body {
     box-sizing: border-box;
     display: block;
     margin: auto;
+    margin-bottom: 150px;
     padding-top: 56px;
     width: 582px;
     height: 153px;
@@ -184,4 +185,107 @@ body {
 .all-projects:hover {
     background: #1BFF07;
     color: #000000;
+}
+
+/* Компетенции */
+
+.competencies {
+    width: 1400px;
+    height: 1377px;
+    margin: auto;
+}
+
+.competencies h2 {
+    margin-bottom: 104px;
+    text-align: center;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.competencies-cards {
+    display: block;
+    width: 1150px;
+    margin: auto;
+}
+
+.competencies-card {
+    margin-bottom: 120px;
+}
+
+.competencies-card:nth-child(4) {
+    margin-bottom: 150px;
+}
+
+.competencies-title-html,
+.competencies-title-js,
+.competencies-title-library,
+.competencies-title-adaptive { 
+    position: relative;
+    margin-bottom: 15px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #1BFF07;
+}
+
+.competencies-title-html::before {
+    position: absolute;
+    content: '';
+    top: -55px;
+    width: 45px;
+    height: 44px;
+    background-image: url(../resources/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.competencies-title-js::before {
+    position: absolute;
+    content: '';
+    top: -55px;
+    width: 45px;
+    height: 44px;
+    background-image: url(../resources/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.competencies-title-library::before {
+    position: absolute;
+    content: '';
+    top: -55px;
+    width: 45px;
+    height: 44px;
+    background-image: url(../resources/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.competencies-title-adaptive::before {
+    position: absolute;
+    content: '';
+    top: -55px;
+    width: 45px;
+    height: 44px;
+    background-image: url(../resources/html.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+
+.competencies-text {
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
 }
