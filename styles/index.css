@@ -52,7 +52,7 @@ header {
     font-size: 42px;
     font-weight: 700;
     letter-spacing: -0.11em;
-    color: #1BFF07;
+    color: #51f551;
     text-transform: uppercase;
 }
 
@@ -71,7 +71,7 @@ header {
 }
 
 .nav-link:hover {
-    color: #1BFF07;
+    color: #51f551;
 }
 
 .nav-link:first-child {
@@ -97,7 +97,7 @@ header h1 {
     font-size: 80px;
     line-height: 70px;
     letter-spacing: -0.03em;
-    color: #1BFF07;
+    color: #51f551;
 }
 
 /* Секция портфолио */
@@ -152,7 +152,7 @@ header h1 {
 }
 
 .card-link:hover {
-    color: #1BFF07;
+    color: #51f551;
 }
 
 .card-text {
@@ -179,12 +179,12 @@ header h1 {
     letter-spacing: -0.03em;
     border-radius: 10px;
     text-decoration: none;
-    border: 2px solid #1BFF07;
-    color: #1BFF07;
+    border: 2px solid #51f551;
+    color: #51f551;
 }
 
 .all-projects:hover {
-    background: #1BFF07;
+    background: #51f551;
     color: #000000;
 }
 
@@ -228,7 +228,7 @@ header h1 {
     font-size: 35px;
     line-height: 46px;
     letter-spacing: -0.03em;
-    color: #1BFF07;
+    color: #51f551;
 }
 
 .competencies-title-html::before {
@@ -240,7 +240,7 @@ header h1 {
     background-image: url(../resources/html.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1BFF07;
+    background-color: #51f551;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -253,7 +253,7 @@ header h1 {
     background-image: url(../resources/html.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1BFF07;
+    background-color: #51f551;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -266,7 +266,7 @@ header h1 {
     background-image: url(../resources/html.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1BFF07;
+    background-color: #51f551;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -279,7 +279,7 @@ header h1 {
     background-image: url(../resources/html.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-color: #1BFF07;
+    background-color: #51f551;
     border-radius: 10px;
     color: #FFFFFF;
 }
@@ -341,7 +341,7 @@ header h1 {
     font-size: 55px;
     line-height: 72px;
     letter-spacing: -0.03em;
-    color: #1BFF07;
+    color: #51f551;
 }
 
 .container-text p {
@@ -395,7 +395,7 @@ header h1 {
 }
 
 .contacts-container a:hover {
-    color: #1BFF07;
+    color: #51f551;
 }
 
 /* Подвал */
