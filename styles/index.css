@@ -1,7 +1,7 @@
 html {
-    background-image: url(../resources/full-img.jpg);
+    background-image: url(../resources/back-img.jpeg);
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
 }
 
 body {
@@ -350,4 +350,49 @@ body {
     line-height: 29px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+/* Секция контакты */
+
+.contacts {
+    width: 1400px;
+    margin: auto;
+    position: relative;
+}
+
+.contacts-img {
+    width: 1400px;
+    height: 717px;
+    margin-bottom: 150px;
+    background-image: url(../resources/contacts.png);
+    border-radius: 30px;
+}
+
+.contacts-img h2 {
+    margin-bottom: 28px;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+.contacts-container {
+    position: absolute;
+    display: inline;
+    left: 125px;
+    top: 320px;
+}
+
+.contacts-container a {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.contacts-container a:hover {
+    color: #1BFF07;
 }
