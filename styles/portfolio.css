@@ -1,0 +1,73 @@
+.portfolio {
+    padding-top: 150px;
+}
+.portfolio h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 55px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+.projects {
+    max-width: 1150px;
+    margin: auto;
+    margin-bottom: 80px;
+}
+.project-card {
+    position: relative;
+    height: 550px;
+    display: block;
+    background: linear-gradient(180deg, 
+    rgba(0, 0, 0, 0) 0%, 
+    rgba(0, 0, 0, 0.9) 100%),
+    url(../resources/metrica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 30px;
+}
+.card-link {
+    position: absolute;
+    top: 410px;
+    left: 50px;
+    font-size: 35px;
+    line-height: 46px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.card-link:hover {
+    color: #51f551;
+}
+.card-text {
+    position: absolute;
+    top: 461px;
+    left: 50px;
+    font-size: 30px;
+    line-height: 39px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+
+
+.all-projects {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-bottom: 150px;
+    padding-top: 56px;
+    width: 582px;
+    height: 153px;
+    font-size: 30px;
+    line-height: 39px;
+    text-align: center;
+    letter-spacing: -0.03em;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 2px solid #51f551;
+    color: #51f551;
+}
+.all-projects:hover {
+    background: #51f551;
+    color: #000000;
+}

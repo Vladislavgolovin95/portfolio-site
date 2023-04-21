@@ -1,0 +1,72 @@
+header {
+    position: relative;
+    padding-top: 36px;
+    height: 100vh;
+    background: linear-gradient(
+        180deg, 
+        rgba(0, 0, 0, 0) 0%, 
+        rgba(0, 0, 0, 0.5) 100%),
+        url(../resources/title-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+}
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    height: 55px;
+}
+.logo {
+    text-align: center;
+    padding-bottom: 5px;
+    width: 170px;
+    height: 39px;
+    background: #000000;
+    border-radius: 100px;
+    border: 2px solid #51f551;;
+}
+.logo-text {
+    line-height: 43px;
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.11em;
+    color: #51f551;
+    text-transform: uppercase;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.nav-link {
+    display: block;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: #51f551;
+}
+.title-text {
+    position: absolute;
+    bottom: 270px;
+    width: 430px;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+}
+header h1 {
+    position: absolute;
+    bottom: 94px;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -0.03em;
+    color: #51f551;
+}
+
+@media (max-width:1199px) {
+
+}
