@@ -15,22 +15,55 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div class="container">
-            <div class="nav-section">
-                <div class="logo">
-                    <p class="logo-text">golovin</p>
+            <div class="header-inner">
+                <div class="nav-section">
+                    <div class="logo">
+                        <p class="logo-text">golovin</p>
+                    </div>
+                    <nav class="nav">
+                        <a class="nav-link" href="#portfolio">портфолио</a>
+                        <a class="nav-link" href="#competencies">компетенции</a>
+                        <a class="nav-link" href="#services">услуги</a>
+                        <a class="nav-link" href="#contacts">контакты</a>
+                    </nav>
+                    <div class="js-burger-btn burger-btn">
+                        <span class="burger-icon"></span>
+                    </div>
                 </div>
-                <nav class="nav">
-                    <a class="nav-link" href="#portfolio">портфолио</a>
-                    <a class="nav-link" href="#competencies">компетенции</a>
-                    <a class="nav-link" href="#services">услуги</a>
-                    <a class="nav-link" href="#contacts">контакты</a>
-                </nav>
+                <p class="title-text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают
+                    престиж
+                    компании и позволяют выделиться на фоне конкурентов</p>
+                <h1>Владислав Головин <br> Frontend-разработчик</h1>
+                <div class="js-burger burger">
+                    <div class="js-burger__content burger__content">
+                        <div class="logo burger-logo">
+                            <p class="logo-text burger_logo-text">golovin</p>
+                        </div>
+                        <ul class="burger-header__nav">
+                            <li class=".burger-header__nav-link">
+                                <a href="#portfolio" class="burger-header__nav-link">О НАС</a>
+                            </li>
+                            <li class=".burger-header__nav-link">
+                                <a href="#competencies" class="burger-header__nav-link">ПРОЕКТЫ</a>
+                            </li>
+                            <li class=".burger-header__nav-link">
+                                <a href="#services" class="burger-header__nav-link">УСЛУГИ</a>
+                            </li>
+                            <li class=".burger-header__nav-link">
+                                <a href="#contacts" class="burger-header__nav-link">КОНТАКТЫ</a>
+                            </li>
+                        </ul>
+                        <div class="burger__contacts">
+                            <p class="burger__contacts-title">для связи:</p>
+                            <a class="burger__contacts-phone" href="tel:+79358954535">+7 935 895-45-35</a>
+                            <a class="burger__contacts-mail" target="_blank"
+                                href="https://t.me/VladislavGolovin95">VladislavGolovin95</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p class="title-text">Разрабатываю имиджевые сайты для малого и среднего бизнеса, которые повышают престиж
-                компании и позволяют выделиться на фоне конкурентов</p>
-            <h1>Владислав Головин <br> Frontend-разработчик</h1>
         </div>
     </header>
     <main>
@@ -54,7 +87,7 @@
                 <a class="all-projects" href="">Смотреть все проекты</a>
             </div>
         </section>
-        <section id="competencies" class="competencies">
+        <!-- <section id="competencies" class="competencies">
             <h2>Мои компетенции</h2>
             <ul class="competencies-cards">
                 <li class="competencies-card">
@@ -83,11 +116,11 @@
                     <p class="competencies-text">фронтенд разработчики должны быть знакомы с различными библиотеками и
                         фреймворками, такими как React, Angular, Vue и другими. Умение использовать готовые решения,
                         адаптировать их под нужды проекта и расширять их функциональность, является очень важным
-                        навыком.</p> 
-               </li>
+                        навыком.</p>
+                </li>
             </ul>
-        </section>
-        <section id="services" class="services">
+        </section> -->
+        <!-- <section id="services" class="services">
             <h2>Помогаю реализовать широкий спектр задач</h2>
             <ul class="services-cards">
                 <li class="services-card">
@@ -122,8 +155,8 @@
                     </div>
                 </li>
             </ul>
-        </section>
-        <section id="contacts" class="contacts">
+        </section> -->
+        <!-- <section id="contacts" class="contacts">
             <div class="contacts-img">
                 <div class="contacts-container">
                     <h2>для связи :</h2>
@@ -132,12 +165,14 @@
                     <a href="mailto:vladislav.golovin95@mail.ru">mail</a>
                 </div>
             </div>
-        </section>
+        </section> -->
     </main>
     <footer>
         <h3>Портфолио фронтенд-разработчика Владислава Головина</h3>
         <p>Все права защищены. 2023</p>
     </footer>
+
+    <script src="/burger.js"></script>
 </body>
 
 </html>

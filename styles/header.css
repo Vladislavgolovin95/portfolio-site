@@ -1,15 +1,16 @@
-header {
+.header {
     position: relative;
     padding-top: 36px;
     height: 100vh;
+    width: 100%;
     background: linear-gradient(
         180deg, 
         rgba(0, 0, 0, 0) 0%, 
         rgba(0, 0, 0, 0.5) 100%),
         url(../resources/title-photo.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
 }
 .nav-section {
     display: flex;
@@ -58,7 +59,7 @@ header {
     letter-spacing: -0.03em;
     color: #FFFFFF;
 }
-header h1 {
+h1 {
     position: absolute;
     bottom: 94px;
     font-size: 80px;
@@ -68,5 +69,46 @@ header h1 {
 }
 
 @media (max-width:1199px) {
+    .header {
+        padding-top: 17px;
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+    }
+    .nav {
+        display: none;
+    }
+    h1 {
+        bottom: 94px;
+        font-size: 60px;
+        line-height: 70px;
+    }
+}
 
+@media (max-width:767px) {
+    .header {
+        background: linear-gradient(
+            180deg, 
+            rgba(0, 0, 0, 0) 0%, 
+            rgba(0, 0, 0, 0.5) 100%),
+            url(../resources/title-photo.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50%;
+    }
+    .nav {
+        display: none;
+    }
+    .title-text {
+        bottom: 200px;
+        width: 310px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+    h1 {
+        width: 100%;
+        bottom: 70px;
+        font-size: 40px;
+        line-height: 47px;
+    }
 }
