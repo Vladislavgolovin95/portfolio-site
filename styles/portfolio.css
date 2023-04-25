@@ -3,7 +3,6 @@
 }
 .portfolio h2 {
     text-align: center;
-    margin-bottom: 40px;
     font-size: 55px;
     line-height: 72px;
     letter-spacing: -0.03em;
@@ -11,8 +10,7 @@
 }
 .projects {
     max-width: 1150px;
-    margin: auto;
-    margin-bottom: 80px;
+    margin: 40px auto 80px auto;
 }
 .project-card {
     position: relative;
@@ -25,6 +23,23 @@
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 30px;
+}
+.card-logo {
+    display: block;
+    width: 177px;
+    height: 47px;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    padding-top: 10px;
+    text-align: center;
+    background: #1BFF07;
+    color: #000000;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: -0.03em;
 }
 .card-link {
     position: absolute;
@@ -49,14 +64,13 @@
     color: #FFFFFF;
 }
 
-
 .all-projects {
     box-sizing: border-box;
     display: block;
     margin: auto;
     margin-bottom: 150px;
     padding-top: 56px;
-    width: 582px;
+    max-width: 582px;
     height: 153px;
     font-size: 30px;
     line-height: 39px;
@@ -70,4 +84,86 @@
 .all-projects:hover {
     background: #51f551;
     color: #000000;
+}
+
+@media (max-width:1199px) {
+    .portfolio h2 {
+        font-size: 45px;
+        line-height: 58px;
+    }
+    .projects {
+        margin: 53px auto 64px auto;
+    }
+    .project-card {
+        height: 445px;
+        border-radius: 25px;
+    }
+    .card-logo {
+        width: 142px;
+        height: 38px;
+        left: 40px;
+        top: 40px;
+        padding-top: 8px;
+        border-radius: 80px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .card-link {
+        top: 333px;
+        left: 40px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .card-text {
+        top: 374px;
+        left: 40px;
+        font-size: 24px;
+        line-height: 31px;
+    }
+    .all-projects {
+        padding-top: 45px;
+        max-width: 460px;
+        height: 124px;
+        font-size: 24px;
+        line-height: 32px;
+        border-radius: 8px;
+    }
+}
+
+@media (max-width:767px) {
+    .portfolio h2 {
+        font-size: 30px;
+        line-height: 39px;
+    }
+    .projects {
+        margin: 34px auto 60px auto;
+    }
+    .card-logo {
+        width: 113px;
+        height: 30px;
+        left: 33px;
+        top: 30px;
+        padding-top: 6px;
+        border-radius: 65px;
+        font-size: 13px;
+        line-height: 18px;
+    }
+    .card-link {
+        left: 35px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .card-text {
+        left: 35px;
+        font-size: 16px;
+        line-height: 21px;
+    }
+    .all-projects {
+        margin-bottom: 100px;
+        padding-top: 28px;
+        max-width: 350px;
+        height: 80px;
+        font-size: 18px;
+        line-height: 23px;
+    }
 }
