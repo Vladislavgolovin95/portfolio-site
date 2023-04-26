@@ -1,10 +1,8 @@
 .competencies {
-    width: 1400px;
-    height: 1377px;
-    margin: auto;
+    padding-bottom: 150px;
 }
 .competencies h2 {
-    margin-bottom: 104px;
+    margin-bottom: 139px;
     text-align: center;
     font-size: 55px;
     line-height: 72px;
@@ -12,82 +10,87 @@
     color: #FFFFFF;
 }
 .competencies-cards {
-    display: block;
-    width: 1150px;
-    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 100px;
 }
 .competencies-card {
-    margin-bottom: 120px;
+    width: calc(50% - 7px);
 }
-.competencies-card:nth-child(4) {
-    margin-bottom: 150px;
-}
-.competencies-title-html,
-.competencies-title-js,
-.competencies-title-library,
-.competencies-title-adaptive { 
+.competencies-title { 
     position: relative;
     margin-bottom: 15px;
-    font-size: 35px;
+    font-size: 33px;
     line-height: 46px;
     letter-spacing: -0.03em;
     color: #51f551;
 }
-.competencies-title-html::before {
+.competencies-title::before {
     position: absolute;
     content: '';
     top: -55px;
     width: 45px;
     height: 44px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #51f551;
+    border-radius: 10px;
+    color: #FFFFFF;
+}
+.html::before {
     background-image: url(../resources/html.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #51f551;
-    border-radius: 10px;
-    color: #FFFFFF;
 }
-.competencies-title-js::before {
-    position: absolute;
-    content: '';
-    top: -55px;
-    width: 45px;
-    height: 44px;
+.js::before {
     background-image: url(../resources/js.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #51f551;
-    border-radius: 10px;
-    color: #FFFFFF;
 }
-.competencies-title-library::before {
-    position: absolute;
-    content: '';
-    top: -55px;
-    width: 45px;
-    height: 44px;
+.library::before {
     background-image: url(../resources/library.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #51f551;
-    border-radius: 10px;
-    color: #FFFFFF;
 }
-.competencies-title-adaptive::before {
-    position: absolute;
-    content: '';
-    top: -55px;
-    width: 45px;
-    height: 44px;
+.adaptive::before {
     background-image: url(../resources/adaptive.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-color: #51f551;
-    border-radius: 10px;
-    color: #FFFFFF;
 }
 .competencies-text {
     font-size: 22px;
     line-height: 29px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
+}
+
+@media(max-width:1199px) {
+    .competencies h2 {
+        margin-bottom: 106px;
+        font-size: 45px;
+        line-height: 58px;
+    }
+    .competencies-cards {
+        row-gap: 84px;
+    }
+    .competencies-card {
+        width: calc(50% - 5px);
+    }
+    .competencies-title { 
+        margin-bottom: 13px;
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .competencies-title::before {
+        top: -45px;
+        width: 36px;
+        height: 36px;
+    }
+    .competencies-text {
+        font-size: 18px;
+        line-height: 23px;
+    }
+}
+
+@media(max-width:767px) {
+    .competencies-cards {
+        flex-direction: column;
+        row-gap: 106px;
+    }
+    .competencies-card {
+        width: 100%;
+    }
 }
