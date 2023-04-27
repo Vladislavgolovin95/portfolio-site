@@ -200,22 +200,50 @@
             </div>
         </section>
         <section id="contacts" class="contacts">
-            <div class="contacts-img">
-                <div class="contacts-container">
-                    <h2 class="contacts-title">Для связи со мной заполните простую форму</h2>
-                    <a href="https://instagram.com/hardgainer__?igshid=YmMyMTA2M2Y=">instagram</a>
-                    <a href="https://t.me/VladislavGolovin95">telegram</a>
-                    <a href="mailto:vladislav.golovin95@mail.ru">mail</a>
+            <div class="container">
+                <div class="contacts-inner">
+                    <div class="contacts-wrapper">
+                        <h2 class="contacts-title">Для связи со мной заполните простую форму</h2>
+                        <form class="form">
+                            <input class="form__item" type="text" name="name" placeholder="Имя Фамилия">
+                            <input class="form__item" type="email" name="email" placeholder="example@mail.com">
+                        </form>
+                        <button class="contacts__btn">Отправить</button>
+                    </div>
+                    <picture>
+                        <source media="(max-width: 1199px)" srcset="resources/contacts-tab.png">
+                        <img class="contacts-img" src="resources/contacts.png" alt="Frontend">
+                    </picture>
                 </div>
             </div>
         </section>
     </main>
-    <!-- <footer>
-        <h3>Портфолио фронтенд-разработчика Владислава Головина</h3>
-        <p>Все права защищены. 2023</p>
-    </footer> -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <div class="footer-top">
+                    <p class="footer-top_title">Портфолио фротнтенд-разработчика Влада Головина</p>
+                    <ul class="footer-top_list">
+                        <li>
+                            <a class="footer-link" href="mailto:vladislav.golovin95@mail.ru" target="_blank">mail</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="https://t.me/VladislavGolovin95" target="_blank">telegram</a>
+                        </li>
+                        <li>
+                            <a class="footer-link" href="https://instagram.com/hardgainer__?igshid=YmMyMTA2M2Y=" target="_blank">instagram</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer-bottom">
+                    <p class="bottom-text">Все права защищены. 2023</p>
+                    <p class="bottom-text">политика обработки данных</p>
+                </div>
+            </div>
+        </div>
+    </footer>
 
-    <script src="/burger.js"></script>
+    <script src="burger.js"></script>
 </body>
 
 </html>
