@@ -26,7 +26,7 @@
 }
 .card-logo {
     display: block;
-    width: 177px;
+    width: 210px;
     height: 47px;
     position: absolute;
     left: 50px;
@@ -41,7 +41,7 @@
     line-height: 27px;
     letter-spacing: -0.03em;
 }
-.card-link {
+.card-name {
     position: absolute;
     top: 410px;
     left: 50px;
@@ -49,10 +49,14 @@
     line-height: 46px;
     letter-spacing: -0.03em;
     color: #FFFFFF;
-    text-decoration: none;
 }
-.card-link:hover {
-    color: #51f551;
+.card-link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    text-decoration: none;
 }
 .card-text {
     position: absolute;
